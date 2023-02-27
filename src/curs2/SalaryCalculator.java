@@ -1,12 +1,14 @@
 package curs2;
 
+import curs1.FirstClass;
+
 public class SalaryCalculator {
 
 	int hoursWorked = 40;
 	
 	public static void main(String[] args) {
 
-		Tester tester1 = new Tester();		
+		Tester tester1 = new Tester();	
 		tester1.setName("Oana");
 		tester1.setRatePerHour(30);
 		Tester tester2 = new Tester();
