@@ -7,7 +7,7 @@ import java.util.Scanner;
  *intrebam userul primul numar
  *intrebam userul operatia matematica
  *intrebam userul al doile numar
- *printam rezultatul " EX : 4 + 4 = 8
+ *printam rezultatul " EX : Rezultatul este : 4 + 4 = 8
  *
  */
 
@@ -37,15 +37,18 @@ public class SimpleCalculator {
 		if(operation == '+') {
 			result = num1+num2;
 			printResult();
+
 		}else if(operation == '-') {
 			result = num1-num2;
 			printResult();
 		}else if(operation == '*') {
 			result = num1*num2;
 			printResult();
+
 		}else if(operation == '/') {
 			result = num1/num2;
 			printResult();
+
 		}
 		
 		
