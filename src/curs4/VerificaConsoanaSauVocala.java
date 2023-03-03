@@ -10,23 +10,23 @@ public class VerificaConsoanaSauVocala {
 		Scanner scan = new Scanner(System.in);
 		char ch = scan.next().charAt(0);
 		
-	//	if(ch == 'a' || ch == 'e' ||) {}
+	//	if(ch == 'a' || ch == 'e' || ch == 'i' || ch == '0') {}
 		
 		switch(ch) {
-		case 'a':
-		case 'e':
-		case 'i':
-		case 'o':	
-		case 'u':	
-		case 'A':
-		case 'E':
-		case 'I':
-		case 'U':
-		case 'O':	
-			System.out.println("Este vocala!");
-			break;
-		default:
-			System.out.println("Este consoana");
+			case 'a':
+			case 'e':
+			case 'i':
+			case 'o':	
+			case 'u':	
+			case 'A':
+			case 'E':
+			case 'I':
+			case 'U':
+			case 'O':	
+				System.out.println("Este vocala!");
+				break;
+			default:
+				System.out.println("Este consoana");
 		}
 		
 		

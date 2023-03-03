@@ -18,8 +18,12 @@ public class LetterSearch {
 		String text =  scan.next().toUpperCase();
 		//text = text.toUpperCase();
 		
-		//masinadawdadadadadadada
+		//masina
+		//tractor
 		//012345
+		
+		
+		
 		int counter = 0;
 		
 		for(int i=0;i<text.length();i++ ) {
@@ -37,5 +41,6 @@ public class LetterSearch {
 		}
 		
 	}
+	//test comment for git
 
 }

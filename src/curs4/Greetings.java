@@ -18,7 +18,7 @@ public class Greetings {
 		}else if(calificativ.equals("B") {
 			System.out.println("Not that good job!");
 		}*/
-		
+				
 		switch(calificativ.toUpperCase()) {
 		case "A":
 			System.out.println("Good job");
