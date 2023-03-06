@@ -4,6 +4,7 @@ public class VariableScope {
 	
 	//instance area
 	String nume;
+	int num;
 	
 	//static area
 	static String prenume;
