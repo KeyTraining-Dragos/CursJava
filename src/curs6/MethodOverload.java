@@ -5,7 +5,7 @@ public class MethodOverload {
 	public static void main(String[] args) {
 
 		MethodOverload obj =  new MethodOverload();
-		System.out.println(obj.multiply(2.6, 3));
+		System.out.println(obj.multiply(2, 3));
 	
 		
 		System.out.println("Text");
