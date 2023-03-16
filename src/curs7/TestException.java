@@ -10,7 +10,7 @@ public class TestException {
 			ageCheck.checkAgeLimit(5);
 			
 		} catch (InvalidAgeException e) {
-			//e.printStackTrace();
+			e.printStackTrace();
 		}
 		
 		System.out.println("Cod dupa execptie");
